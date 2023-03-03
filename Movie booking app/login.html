@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="bg-img d-flex">
+      <div class="card" style="width: 20rem; height: 35rem">
+        <div class="login-text text-center text-dark">
+          <h1>Future Film</h1>
+          <h3>We share the greatest movies with the timeline.</h3>
+        </div>
+        <div class="form">
+          <form action="home.html" id="lform" class="ms-5">
+            <div class="input-form">
+              <label class="fs-3">Username</label>
+              <br />
+              <input
+                type="text"
+                name="username"
+                id="lusername"
+                placeholder="Enter Username"
+                class="input-border"
+              /><br />
+              <div class="loginError"></div>
+            </div>
+            <div class="input-form">
+              <label class="fs-3">Password</label><br />
+              <input
+                type="password"
+                name="password"
+                id="lpassword"
+                placeholder="Enter Password"
+                class="input-border"
+              /><br />
+              <div class="loginError"></div>
+            </div>
+            <a href="home.html"
+              ><button type="submit" class="btn btn-outline-dark p-1 fs-5 my-3">
+                Log in
+              </button></a
+            >
+            <p class="fs-5">
+              If you do not have an account,
+              <a
+                href="register.html"
+                class="text-dark text-decoration-underline"
+                >Register now.</a
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
